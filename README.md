@@ -59,8 +59,10 @@ fun 關鍵字用於聲明函數。函數是設計用於執行特定任務的代�
 
 ## Main Parameters
 
+在 Kotlin 1.3 版本之前，需要使用 main() 帶參數的函數，例如：fun main(args : Array<String>). 上面的例子必須寫成這樣才能工作：
+
 <img src="imgs/main2.png" style="width:450px;">
 
 <img src="imgs/main2_result.png" style="width:300px">
 
-在 Kotlin 1.3 版本之前，需要使用 main() 帶參數的函數，例如：fun main(args : Array<String>). 上面的例子必須寫成這樣才能工作：
+注意：這不再是必需的，沒有它程序也能正常運行。但是，如果您過去一直在使用它，它不會造成任何傷害，並且會繼續使用它。
