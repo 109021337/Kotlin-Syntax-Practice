@@ -59,7 +59,7 @@ fun 關鍵字用於聲明函數。函數是設計用於執行特定任務的代�
 
 ## Main Parameters
 
-<img src="imgs/main2.png" style="width:300px;height:500px">
+<img src="imgs/main2.png" style="width:450px;height:500px">
 
 <img src="imgs/main2_result.png" style="width:300px">
 
