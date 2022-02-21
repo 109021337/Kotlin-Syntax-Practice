@@ -43,7 +43,7 @@ Kotlin 用於：
 
 在上一章中，我們創建了一個名為 的 Kotlin 文件 Main.kt，並使用以下代碼將 "Hello World" 打印到屏幕上：
 
-<img src="imgs/main1.png" style="width:300px;height:500px">
+<img src="imgs/main1.png" style="width:450px">
 
 <img src="imgs/main1_result.png" style="width:300px">
 
@@ -59,7 +59,7 @@ fun 關鍵字用於聲明函數。函數是設計用於執行特定任務的代�
 
 ## Main Parameters
 
-<img src="imgs/main2.png" style="width:450px;height:500px">
+<img src="imgs/main2.png" style="width:450px;">
 
 <img src="imgs/main2_result.png" style="width:300px">
 
