@@ -43,9 +43,9 @@ Kotlin 用於：
 
 在上一章中，我們創建了一個名為 的 Kotlin 文件 Main.kt，並使用以下代碼將 "Hello World" 打印到屏幕上：
 
-<img src="imgs/main1.png" style="width:300px">
+<img src="imgs/main1.png" style="width:300px;height:auto">
 
-<img src="imgs/main1_result.png" style="width:300px">
+<img src="imgs/main1_result.png" style="width:300px;height:auto">
 
 ### 示例說明
 
