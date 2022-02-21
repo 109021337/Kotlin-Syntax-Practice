@@ -36,3 +36,31 @@ Kotlin 用於：
 - Kotlin 很容易學習，特別是如果您已經了解 Java
 - Kotlin 可以免費使用
 - 大社區/支持
+
+# Kotlin Syntax
+
+## Kotlin Syntax
+
+在上一章中，我們創建了一個名為 的 Kotlin 文件 Main.kt，並使用以下代碼將 "Hello World" 打印到屏幕上：
+
+<img src="imgs/main1.png" style="width:300px;height:300px">
+
+<img src="main1_result.png" style="width:300px;height:300px">
+
+### 示例說明
+
+fun 關鍵字用於聲明函數。函數是設計用於執行特定任務的代碼塊。在上面的示例中，它聲明了 main() 函數。
+
+該 main() 函數是您將在每個 Kotlin 程序中看到的東西。該函數用於執行代碼。main() 函數大括號內的任何代碼 {} 都將被執行。
+
+比如 println() 函數在函數內部 main()，意思就是會被執行。該 println() 函數用於輸出/打印文本，在我們的示例中它將輸出 "Hello World"。
+
+小知識：在 Kotlin 中，代碼語句不必以分號 ( ; ) 結尾（其他編程語言通常需要分號，例如 Java、C++、C# 00000等）。
+
+## Main Parameters
+
+<img src="imgs/main2.png" style="width:300px;height:300px">
+
+<img src="main2_result.png" style="width:300px;height:300px">
+
+在 Kotlin 1.3 版本之前，需要使用 main() 帶參數的函數，例如：fun main(args : Array<String>). 上面的例子必須寫成這樣才能工作：
