@@ -66,3 +66,33 @@ fun 關鍵字用於聲明函數。函數是設計用於執行特定任務的代�
 <img src="imgs/main2_result.png" style="width:300px">
 
 注意：這不再是必需的，沒有它程序也能正常運行。但是，如果您過去一直在使用它，它不會造成任何傷害，並且會繼續使用它。
+
+# Kotlin Output (Print Text)
+
+## Kotlin Output (Print)
+
+該 println() 函數用於輸出值/打印文本：
+
+<img src="imgs/main1.png" style="width:450px">
+
+<img src="imgs/main1_result.png" style="width:300px">
+
+您可以根據 println() 需要添加任意數量的功能。請注意，它將為每個函數添加一個新行：
+
+<img src="imgs/main3.png" style="width:450px">
+
+<img src="imgs/main3_result.png" style="width:300px">
+
+您還可以打印數字並執行數學計算：
+
+<img src="imgs/main4.png" style="width:450px">
+
+<img src="imgs/main4_result.png" style="width:300px">
+
+## The print() function
+
+還有一個 print() 功能，類似於 println()。唯一的區別是它不會在輸出的末尾插入新行：
+
+<img src="imgs/main5.png" style="width:450px">
+
+<img src="imgs/main5_result.png" style="width:300px">
