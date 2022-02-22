@@ -96,3 +96,40 @@ fun 關鍵字用於聲明函數。函數是設計用於執行特定任務的代�
 <img src="imgs/main5.png" style="width:450px">
 
 <img src="imgs/main5_result.png" style="width:300px">
+
+
+# Kotlin Comments
+
+## Kotlin Comments
+
+註釋可用於解釋 Kotlin 代碼，並使其更具可讀性。它還可用於在測試替代代碼時阻止執行。
+
+## Single-line Comments
+
+單行註釋以兩個正斜杠 (//) 開頭。
+
+Kotlin 忽略行尾之間的任何文本 //（不會執行）。
+
+此示例在一行代碼之前使用單行註釋：
+
+<img src="imgs/main6.png" style="width:450px">
+
+<img src="imgs/main6_result.png" style="width:300px">
+
+此示例在代碼行末尾使用單行註釋：
+
+<img src="imgs/main7.png" style="width:450px">
+
+<img src="imgs/main7_result.png" style="width:300px">
+
+## Multi-line Comments
+
+多行註釋以。開頭 /* 和結尾 */。
+
+Kotlin 將忽略 /* 和之間的任何文本。*/
+
+此示例使用多行註釋（註釋塊）來解釋代碼：
+
+<img src="imgs/main8.png" style="width:450px">
+
+<img src="imgs/main8_result.png" style="width:300px">
