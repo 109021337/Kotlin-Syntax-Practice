@@ -249,3 +249,141 @@ Kotlin 變量的一般規則是：
 - 名稱區分大小寫（“myVar” 和 “myvar” 是不同的變量）
 - 名稱應以小寫字母開頭，並且不能包含空格
 - 保留字（如 Kotlin 關鍵字，如 varor String）不能用作名稱
+
+# Kotlin Data Types
+
+## Kotlin Data Types
+
+在 Kotlin 中，變量的類型由其值決定：
+
+<img src="imgs/main20.png" style="width:450px">
+
+<img src="imgs/main20_result.png" style="width:300px">
+
+但是，您從上一章中了解到，如果您願意，可以指定類型：
+
+<img src="imgs/main21.png" style="width:450px">
+
+<img src="imgs/main21_result.png" style="width:300px">
+
+有時您必須指定類型，而通常您不需要。無論如何，最好知道不同類型代表什麼。
+
+稍後您將詳細了解何時需要指定類型。
+
+數據類型分為不同的組：
+
+- Numbers
+- Characters
+- Booleans
+- Strings
+- Arrays
+
+## Numbers
+
+號碼類型分為兩組：
+
+整數類型存儲整數，正數或負數（例如 123 或 -456），沒有小數。有效類型 為Byte、 Short 和 Int、Long。
+
+浮點類型表示帶有小數部分的數字，包含一個或多個小數。有兩種類型： Float 和 Double。
+
+<p style="background-color:yellow">如果您不指定數值變量的類型，則它通常Int以整數和Double浮點數的形式返回。</p>
+
+## Integer Types
+
+### Byte
+
+該數據類型可以存儲從 -128 到 127 的整數。當您確定該值將在 -128 和 127 之間時，Byte 可以使用它來代替或其他整數類型來節省內存：Int
+
+<img src="imgs/main22.png" style="width:450px">
+
+<img src="imgs/main22_result.png" style="width:300px">
+
+### Short
+
+該 Short 數據類型可以存儲從 -32768 到 32767 的整數：
+
+<img src="imgs/main23.png" style="width:450px">
+
+<img src="imgs/main23_result.png" style="width:300px">
+
+### Int 
+
+該 Int 數據類型可以存儲從 -2147483648 到 2147483647 的整數：
+
+<img src="imgs/main24.png" style="width:450px">
+
+<img src="imgs/main24_result.png" style="width:300px">
+
+### Long
+
+該 Long 數據類型可以存儲從 -9223372036854775808 到 9223372036854775808 Int 的整數。用於存儲值不夠大的情況。或者，您可以使用"L"結束值：
+
+<img src="imgs/main25.png" style="width:450px">
+
+<img src="imgs/main25_result.png" style="width:300px">
+
+## Int 和 Long 的區別
+
+一個整數 Int 到 2147483647 為止就是一個整數。如果超出這個範圍，則定義為 Long：
+
+<img src="imgs/main26.png" style="width:450px">
+
+## Floating Point Types
+
+浮點類型表示帶小數的數字，例如 9.99 或 3.14515。
+
+### Float
+
+該 Float 數據類型可以存儲從 3.4e−038 到 3.4e+038 的小數。請注意，您應該以 “F” 結束該值：
+
+<img src="imgs/main27.png" style="width:450px">
+
+<img src="imgs/main27_result.png" style="width:300px">
+
+### Double
+
+該 Double 數據類型可以存儲從 1.7e−308 到 1.7e+038 的小數：
+
+<img src="imgs/main28.png" style="width:450px">
+
+<img src="imgs/main28_result.png" style="width:300px">
+
+使用Float或Double？
+
+浮點值的精度表示該值在小數點後可以有多少位。的精度 Float 只有六位或七位十進制數字，而 Double 變量的精度約為 十五位。因此，Double在大多數計算中使用它更安全。
+
+### Scientific Numbers
+
+浮點數也可以是科學數，帶有“e”或“E”來表示 10 的冪：
+
+<img src="imgs/main29.png" style="width:450px">
+
+<img src="imgs/main29_result.png" style="width:300px">
+
+## Booleans
+
+數據類型，Boolean 只能取值 true 或 false：
+
+<img src="imgs/main30.png" style="width:450px">
+
+<img src="imgs/main30_result.png" style="width:300px">
+
+## Characters
+
+Char 數據類型用於存儲單個字符。char 值必須用單引號括起來，例如 'A' 或 'c'：
+
+<img src="imgs/main31.png" style="width:450px">
+
+<img src="imgs/main31_result.png" style="width:300px">
+
+與 Java 不同，您不能使用 ASCII 值來顯示某些字符。值 66 在 Java 中會輸出 “B”，但在 Kotlin 中會產生錯誤：
+
+<img src="imgs/main32.png" style="width:450px">
+
+## Strings
+
+String 數據類型用於存儲一系列字符（文本）。字符串值必須用雙引號括起來：
+
+<img src="imgs/main33.png" style="width:450px">
+
+<img src="imgs/main33_result.png" style="width:300px">
