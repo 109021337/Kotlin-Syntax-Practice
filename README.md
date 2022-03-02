@@ -387,3 +387,17 @@ String 數據類型用於存儲一系列字符（文本）。字符串值必須�
 <img src="imgs/main33.png" style="width:450px">
 
 <img src="imgs/main33_result.png" style="width:300px">
+
+## Type Conversion
+
+類型轉換是將一種數據類型的值轉換為另一種類型。
+
+在 Kotlin 中，數字類型轉換與 Java 不同。例如，無法將 Int 類型轉換為 Long 使用以下代碼的類型：
+
+<img src="imgs/main34.png" style="width:450px">
+
+要將數值數據類型轉換為另一種類型，您必須使用以下函數之一：toByte()、toShort()、toInt()、toLong()、toFloat() 或：toDouble() toChar()
+
+<img src="imgs/main35.png" style="width:450px">
+
+<img src="imgs/main35_result.png" style="width:300px">
