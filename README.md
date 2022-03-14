@@ -401,3 +401,164 @@ String 數據類型用於存儲一系列字符（文本）。字符串值必須�
 <img src="imgs/main35.png" style="width:450px">
 
 <img src="imgs/main35_result.png" style="width:300px">
+
+# Kotlin Operators
+
+##  Kotlin Operators
+
+運算符用於對變量和值執行操作。
+
+該值稱為操作數，而操作（將在兩個操作數之間執行）由運算符定義：
+
+<img src="imgs/main36_2.png" style="width:450px">
+
+在下面的示例中，數字 100 和 50 是操作數 + 符號是運算符：
+
+<img src="imgs/main36.png" style="width:450px">
+
+<img src="imgs/main36_result.png" style="width:300px">
+
+雖然 + 運算符經常用於將兩個值相加，就像上面的示例一樣，但它也可以用於將變量和值相加，或者變量和變量相加：
+
+<img src="imgs/main37.png" style="width:450px">
+
+<img src="imgs/main37_result.png" style="width:300px">
+
+## Kotlin 將運算符分為以下幾組：
+
+- 算術運算符
+- 賦值運算符
+- 比較運算符
+- 邏輯運算符
+
+## 算術運算符
+
+算術運算符用於執行常見的數學運算。
+
+<img src="imgs/picture.png" style="width:450px">
+
+### Addition
+
+<img src="imgs/main38.png" style="width:450px">
+
+<img src="imgs/main38_result.png" style="width:300px">
+
+### Subtraction
+
+<img src="imgs/main39.png" style="width:450px">
+
+<img src="imgs/main39_result.png" style="width:300px">
+
+### Multiplication
+
+<img src="imgs/main40.png" style="width:450px">
+
+<img src="imgs/main40_result.png" style="width:300px">
+
+### Division
+
+<img src="imgs/main41.png" style="width:450px">
+
+<img src="imgs/main41_result.png" style="width:300px">
+
+###	Modulus
+
+<img src="imgs/main42.png" style="width:450px">
+
+<img src="imgs/main42_result.png" style="width:300px">
+
+### Increment
+
+<img src="imgs/main43.png" style="width:450px">
+
+<img src="imgs/main43_result.png" style="width:300px">
+
+### Decrement
+
+<img src="imgs/main44.png" style="width:450px">
+
+<img src="imgs/main44_result.png" style="width:300px">
+
+### Kotlin 賦值運算符
+
+賦值運算符用於為變量賦值。
+
+在下面的示例中，我們使用賦值運算符 ( = ) 將值 10 分配給名為 x 的變量：
+
+<img src="imgs/main45.png" style="width:450px">
+
+<img src="imgs/main45_result.png" style="width:300px">
+
+加法賦值運算符 ( ) 將 += 值添加到變量：
+
+<img src="imgs/main46.png" style="width:450px">
+
+<img src="imgs/main46_result.png" style="width:300px">
+
+所有賦值運算符的列表：
+
+<img src="imgs/picture2.png" style="width:450px">
+
+<img src="imgs/main47.png" style="width:450px">
+
+<img src="imgs/main47_result.png" style="width:300px">
+
+<img src="imgs/main48.png" style="width:450px">
+
+<img src="imgs/main48_result.png" style="width:300px">
+
+<img src="imgs/main49.png" style="width:450px">
+
+<img src="imgs/main49_result.png" style="width:300px">
+
+<img src="imgs/main50.png" style="width:450px">
+
+<img src="imgs/main50_result.png" style="width:300px">
+
+### Kotlin 比較運算符
+
+比較運算符用於比較兩個值，並返回一個 Boolean 值：要嘛 true 要嘛 false。
+
+<img src="imgs/picture3.png" style="width:450px">
+
+<img src="imgs/main51.png" style="width:450px">
+
+<img src="imgs/main51_result.png" style="width:300px">
+
+<img src="imgs/main52.png" style="width:450px">
+
+<img src="imgs/main52_result.png" style="width:300px">
+
+<img src="imgs/main53.png" style="width:450px">
+
+<img src="imgs/main53_result.png" style="width:300px">
+
+<img src="imgs/main54.png" style="width:450px">
+
+<img src="imgs/main54_result.png" style="width:300px">
+
+<img src="imgs/main55.png" style="width:450px">
+
+<img src="imgs/main55_result.png" style="width:300px">
+
+<img src="imgs/main56.png" style="width:450px">
+
+<img src="imgs/main56_result.png" style="width:300px">
+
+### Kotlin 邏輯運算符
+
+邏輯運算符用於確定變量或值之間的邏輯：
+
+<img src="imgs/picture4.png" style="width:300px">
+
+<img src="imgs/main57.png" style="width:450px">
+
+<img src="imgs/main57_result.png" style="width:300px">
+
+<img src="imgs/main58.png" style="width:450px">
+
+<img src="imgs/main58_result.png" style="width:300px">
+
+<img src="imgs/main59.png" style="width:450px">
+
+<img src="imgs/main59_result.png" style="width:300px">
